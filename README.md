@@ -14,7 +14,7 @@ Fixed version of Kamailio IMS configuration files for basic calling
   |         |        |       |       |       |
   |         |        |       |       |       |
   +---+-----+        +-------+       +-------+
-<pre>
+</pre>
 
 - Kamailio IMS => Running in a OpenStack VM with internal IP 10.4.128.7 and Floating IP 172.24.15.21
 - Alice => OnePlus UE SIP client IP (UE maybe behind NAT or otherwise, works in both cases)
