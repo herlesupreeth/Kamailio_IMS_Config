@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DiameterPeer 
-	FQDN="icscf.mnc096.mcc262.3gppnetwork.org"
-	Realm="mnc096.mcc262.3gppnetwork.org"
+	FQDN="icscf.ims.mnc001.mcc001.3gppnetwork.org"
+	Realm="ims.mnc001.mcc001.3gppnetwork.org"
 	Vendor_Id="10415"
 	Product_Name="CDiameterPeer"
 	AcceptUnknownPeers="1"
@@ -15,9 +15,9 @@
 	MaxAuthSessionTimeout="3600"
 >
 
-	<Peer FQDN="hss.mnc096.mcc262.3gppnetwork.org" Realm="mnc096.mcc262.3gppnetwork.org" port="3868"/>
+	<Peer FQDN="hss.ims.mnc001.mcc001.3gppnetwork.org" Realm="ims.mnc001.mcc001.3gppnetwork.org" port="3868"/>
 
-	<Acceptor port="3869" bind="10.4.128.7"/>
+	<Acceptor port="3869" bind="10.4.128.8"/>
 
 	<Auth id="16777216" vendor="10415"/><!-- 3GPP Cx -->
 	<Auth id="16777216" vendor="4491"/><!-- CableLabs Cx -->
@@ -30,5 +30,5 @@
         -->
         <SupportedVendor vendor="10415" />
 
-	<DefaultRoute FQDN="hss.mnc096.mcc262.3gppnetwork.org" metric="10"/>
+	<DefaultRoute FQDN="hss.ims.mnc001.mcc001.3gppnetwork.org" metric="10"/>
 </DiameterPeer>
