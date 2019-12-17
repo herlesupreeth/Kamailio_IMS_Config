@@ -16,7 +16,7 @@
 >
 	<Peer FQDN="pcrf.epc.mnc001.mcc001.3gppnetwork.org" Realm="epc.mnc001.mcc001.3gppnetwork.org" port="3868"/> 
 
-	<Acceptor port="3871" bind="10.4.128.8"/>
+	<Acceptor port="3871" bind="10.4.128.21"/>
 
 	<Auth id="16777236" vendor="10415"/> <!-- 3GPP Rx -->
 	<Auth id="16777236" vendor="0"/> <!-- 3GPP Rx -->
