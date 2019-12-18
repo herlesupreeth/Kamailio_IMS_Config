@@ -22,6 +22,7 @@ Fixed version of Kamailio IMS configuration files for basic calling
 
 ## Tested
 - Basic VoIP calling with WiFi and LTE
+- VoLTE
 
 ## Not Tested
-- VoLTE
+- VoWiFi
