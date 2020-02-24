@@ -8,6 +8,8 @@ Fixed version of Kamailio IMS configuration files for basic calling
 
 ## Testbed Setup
 
+**For VoLTE setup, make sure to have eNB and (EPC + IMS) machines are in the same subnet**
+
 ### VoLTE test
 <pre>
   +---------+        +-------+       +-------+
