@@ -44,3 +44,6 @@ Fixed version of Kamailio IMS configuration files for basic calling
 
 ## Not Tested
 - VoWiFi
+
+## Links related to VoIP
+- [Learning VoIP, RTP and SIP](https://github.com/onmyway133/blog/issues/284)
